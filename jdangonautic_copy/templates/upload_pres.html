@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+	<HTML>
+	<HEAD><TITLE>HOMEPAGE</TITLE>
+	</HEAD>
+	<BODY>
+	<HEADER>
+	<div class="main">
+	<div class="logo">
+
+
+	</div>
+	<ul>
+	<FONT SIZE="5"><li><a href="#">Home</a><li>
+
+	<li><a href="#">My Medicines</a><li>
+
+	<li><a href="#">Logout</a><li></FONT>
+
+
+	</ul>
+	</div>
+	<div class="title">
+	<CENTER><h1><FONT FACE="Cooper Black" SIZE="7">Upload Prescription</FONT></h1></CENTER><br></br><br></br><br></br></div>
+
+	<div class="button">
+<span>Select Image :</span><br><br><input type="file" class="avatar" name="avatar" accept="image/png, image/jpeg"><br></br><br>
+<span>Compartment Number :</span><br><br><input type="number" class="avatar" name="avatar"><br><br><br><br>
+	<a href="medicine_added" class="btn">Submit</a>
+
+	</div>
+	</HEADER>
+	<style media="screen">
+	*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+	}
+	header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://i.ibb.co/y5LF4qR/8.png);
+	height: 100vh;
+	background-size:cover;
+	background-position:center;
+	}
+	ul{
+	float:right;
+	list-style-type:none;
+	margin-top: 25px;
+	margin-right: 1px;
+	}
+	ul li{
+	display:inline-block;
+	}
+	ul li a{
+	text-decoration:none;
+	color: WHITE;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+	}
+	ul li a:hover{
+	background-color:#fff;
+	color:#000;
+	}
+	ul li.active a{
+	background-color:#fff;
+	color:#000;
+	}
+	span {
+		margin:0;
+		padding:0;
+		font-weight:bold;
+		color: white;
+		font-size: 1.2rem;
+		padding-bottom: 50em;
+	}
+	.logo img{
+	float:left;
+	width: 200px;
+	height: auto;
+	margin-top:10px;
+	}
+	.main{
+	max-width: 1200px;
+	margin:auto;
+	}
+	.title{
+	position: absolute;
+	top:40%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	}
+	.title h1{
+	color:#fff;
+	font-size: 40px;
+	}
+	.button{
+	position: absolute;
+	top:63%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	font-size: 10px;
+	}
+	.avatar{
+	border: 2px solid #fff;
+	padding: 5px 30px;
+	color:#fff;
+	text-decoration:none;
+	border-bottom:2px solid #fff;
+	background:transparent;
+	outline:none;
+	min-width: 230px;
+	}
+
+	.btn{
+	border: 2px solid #fff;
+	padding: 5px 30px;
+	color:#fff;
+	text-decoration:none;
+	transition: 0.6s ease;
+	font-size: 1rem;
+	min-width: 230px;
+	font-weight: bold;
+
+	}
+	.btn:hover{
+	background-color:#fff;
+	color:#000;
+	}
+	</style>
+	</BODY>
+	</HTML>
